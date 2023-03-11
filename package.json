@@ -1,0 +1,22 @@
+{
+  "name": "fancy_death",
+  "version": "1.0.0",
+  "description": "News & tools, WEB3 solutions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "http://localhost:8080/"
+  },
+  "keywords": [
+    "tools",
+    "news",
+    "WEB3",
+    "solutions",
+    "tool"
+  ],
+  "author": "Amis13 (lindoespinoso@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "@mathieuc/tradingview": "^3.3.3"
+  }
+}
