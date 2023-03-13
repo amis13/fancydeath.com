@@ -110,30 +110,39 @@ body {
 	-webkit-font-smoothing: subpixel-antialiased;
 }
 .titulo {
-		text-align: center; 
+		text-align: center;
 		font-family: fantasy; 
 		font-weight:bold; 
-		font-size: 100px; 
-		color: #c3fd3b; 
+		font-size: 2em; 
+		color: #c3fd3b;
+		width: 90%;
+		height: 80%t;
 		text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68, 6px 6px #414D68, 7px 7px #414D68, 8px 8px #414D68, 9px 9px #414D68;
 }
 .contenido {
 	text-align: center; 
 	font-family: fantasy; 
 	font-weight:bold; 
-	font-size: 50px; 
+	font-size: 1em; 
 	color: #c3fd3b; 
+	min-width: 90%;
+	min-height: 80%;
 	text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68, 6px 6px #414D68, 7px 7px #414D68, 8px 8px #414D68, 9px 9px #414D68;
 }
 .section1{
 	display:inline-flexbox;
 	position: relative;
+	width: device-width;
+	height: device-height;
+	font-display: center; 
+	min-width: 90%;
+	min-height: 80%;
 }
 .contenido2 {
 	text-align: center; 
 	font-family: fantasy;
 	font-weight:bold; 
-	font-size: 40px; 
+	font-size: 1em; 
 	color: #c3fd3b; 
 	text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68, 6px 6px #414D68, 7px 7px #414D68, 8px 8px #414D68, 9px 9px #414D68;
 }
@@ -141,76 +150,105 @@ body {
 	text-align: center; 
 	font-family: fantasy;
 	font-weight:bold; 
-	font-size: 25px; 
+	font-size: 1.5em; 
 	color: #c3fd3b; 
+	width: device-width;
+	height: device-height;
 	text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68, 6px 6px #414D68, 7px 7px #414D68, 8px 8px #414D68, 9px 9px #414D68;
 }
-.mediaLogo {
-	color: #6689ff;
-	border: bottom 2px #6689ff;
-}
+
 #Container1{
 	margin: auto;
 	font: bold; 
 	background-color: #6689ff;
-	padding: 20px;
-	border-top-right-radius: 20px;
-	border-top-left-radius: 20px;
+	padding: 3em;
+	border-top-right-radius: 3em;
+	border-top-left-radius: 3em;
+	min-width: 90%;
+	min-height: 80%;
+	font-display: center;
+	scrollbar-darkshadow-color: #000000; 
 }
 #Container2{
 	margin: auto;
 	font: bold; 
 	background-color: #6689ff;
-	padding: 20px;
-	border-radius: 20px;
+	padding: 3em;
+	border-radius: 3em;
+	min-width: 90%;
+	min-height: 80%;
+	font-display: center; 
 }
 .container1{
 	background-color: #6689ff;
-	padding: 20px;
-	margin-left: 80px;
-	margin-right: 80px;
-	border-top-right-radius: 20px;
-	border-top-left-radius: 20px;
+	padding: 5em;
+	margin-left: 5em;
+	margin-right: 5em;
+	border-top-right-radius: 3em;
+	border-top-left-radius: 3em;
+	min-width: 90%;
+	min-height: 80%;
+	font-display: center; 
 
 }
 .container2{
 	background-color: #6689ff;
-	padding: 5rem;
-	margin-left: 80px;
-	margin-right: 80px;
-	border-bottom-right-radius: 20px;
-	border-bottom-left-radius: 20px;
+	padding: 5em;
+	margin-left: 5em;
+	margin-right: 5em;
+	border-bottom-right-radius: 3em;
+	border-bottom-left-radius: 3em;
+	min-width: 90%;
+	min-height: 80%;
+	font-display: center; 
 }
 .containerMint{
 	position: relative;
 	display: inline-block;
 	background-color: #6689ff;
-	padding: 20px;
-	margin-left: 80px;
-	margin-right: 80px;
-	border-bottom-right-radius: 20px;
-	border-bottom-left-radius: 20px;
-	max-width: 500px;
-	max-height: 1400px;
+	padding: 3em;
+	margin-left: 5em;
+	margin-right: 5em;
+	border-bottom-right-radius: 3em;
+	border-bottom-left-radius: 3em;
+	min-width: 90%;
+	min-height: 80%;
+	font-display: center; 
 }
 .container3 {
 	background-color: #6689ff;
-	padding: 5rem;
-	margin-left: 80px;
-	margin-right: 80px;
-	border-radius: 20px;
+	padding: 5em;
+	margin-left: 5em;
+	margin-right: 5em;
+	border-radius: 3em;
 	font-display: center;
+	min-width: 90%;
+	min-height: 80%;
+	font-display: center; 
 }
 #Roadmap {
-	padding: 40px;
-	border: #6689ff 10px solid;
-	border-radius: 20px;
-	margin-left: 80px;
-	margin-right: 80px;
-	margin-top: 80px;
-	margin-bottom: 40px;
+	padding: 5em;
+	border: #6689ff 2em solid;
+	border-radius: 3em;
+	margin-left: 5em;
+	margin-right: 5em;
+	margin-top: 5em;
+	margin-bottom: 5em;
+	min-width: 90%;
+	min-height: 80%;
+	font-display: center; 
   }
-
+@media screen and (max-width: 480px){
+	#encabezado{
+        height: auto;
+    }
+    #contenido{
+        width: auto;
+    }
+    #barra_lateral{
+        display:none;
+}
+}
 h1, h2, h3, h4, h5, h6, [class*='heading-'] {
 	margin-top: 0;
 	margin-bottom: 0;
