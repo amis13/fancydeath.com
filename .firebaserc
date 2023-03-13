@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "fancydeath"
-  }
+    "default": "fancydeath",
+    "website": "fancydeath-c7991"
+  },
+  "targets": {},
+  "etags": {}
 }
