@@ -2,7 +2,7 @@
   "name": "fancy_death",
   "version": "1.0.0",
   "description": "News & tools, WEB3 solutions.",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "http://localhost:8080/"
