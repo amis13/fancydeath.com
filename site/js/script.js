@@ -55,17 +55,15 @@
 	}
 	// Your web app's Firebase configuration
 		// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-	const firebaseConfig = {
-		apiKey: "AIzaSyA_g8xxt5NwyAjEvEr2X4tNpeeI4RyEKJI",
-		authDomain: "fancydeath-mobile.firebaseapp.com",
-		databaseURL: "https://fancydeath-mobile-default-rtdb.europe-west1.firebasedatabase.app",
-		projectId: "fancydeath-mobile",
-		storageBucket: "fancydeath-mobile.appspot.com",
-		messagingSenderId: "798112737214",
-		appId: "1:798112737214:web:fc44dc151d2d0a7b33bbef",
-		measurementId: "G-9SDX2KS7PT"
- 	 };
-  
+		const firebaseConfig = {
+			apiKey: "AIzaSyAgNeQXYmUg-EEgkZ0x_EbY8x3jfIDmoPo",
+			authDomain: "fancydeath-c7991.firebaseapp.com",
+			projectId: "fancydeath-c7991",
+			storageBucket: "fancydeath-c7991.appspot.com",
+			messagingSenderId: "420503227116",
+			appId: "1:420503227116:web:7f6d0fb980a32b479a73c9",
+			measurementId: "G-4ZSP05CBP1"
+		  };
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
