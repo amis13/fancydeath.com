@@ -53,6 +53,22 @@
 		if ( isNoviBuilder ) return true;
 		return elem.offset().top + elem.outerHeight() >= $window.scrollTop() && elem.offset().top <= $window.scrollTop() + $window.height();
 	}
+	// Your web app's Firebase configuration
+		// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+	const firebaseConfig = {
+		apiKey: "AIzaSyA_g8xxt5NwyAjEvEr2X4tNpeeI4RyEKJI",
+		authDomain: "fancydeath-mobile.firebaseapp.com",
+		databaseURL: "https://fancydeath-mobile-default-rtdb.europe-west1.firebasedatabase.app",
+		projectId: "fancydeath-mobile",
+		storageBucket: "fancydeath-mobile.appspot.com",
+		messagingSenderId: "798112737214",
+		appId: "1:798112737214:web:fc44dc151d2d0a7b33bbef",
+		measurementId: "G-9SDX2KS7PT"
+ 	 };
+  
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
 
 	/**
 	 * @desc Calls a function when element has been scrolled into the view
