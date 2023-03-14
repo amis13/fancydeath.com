@@ -5,7 +5,8 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "http://localhost:8080/"
+    "dev": "http://localhost:8080/",
+    "build": "npm-run-all build:*"
   },
   "keywords": [
     "tools",
@@ -17,6 +18,9 @@
   "author": "Amis13 (lindoespinoso@gmail.com)",
   "license": "MIT",
   "dependencies": {
-    "@mathieuc/tradingview": "^3.3.3"
+    "@mathieuc/tradingview": "^3.3.3",
+    "firebase": "^9.17.2",
+    "firebase-tools": "^11.24.1",
+    "googleapis": "^112.0.0"
   }
 }

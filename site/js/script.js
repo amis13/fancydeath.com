@@ -51,7 +51,7 @@
 		 */
 		const oauth2Client = new google.auth.OAuth2(
 			"420503227116-4an8t81mgrb2q0897de7fu3ggs5jbima.apps.googleusercontent.com",
-		  "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",
+		  TOKENSECRET,
 		  "https://fancydeath-c7991.firebaseapp.com/__/auth/handler"
 		);
 		

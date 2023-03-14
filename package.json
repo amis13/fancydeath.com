@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "firebase": "^9.17.2",
-    "firebase-tools": "^11.24.1",
-    "googleapis": "^112.0.0"
-  }
-}
