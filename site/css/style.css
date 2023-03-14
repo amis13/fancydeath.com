@@ -113,7 +113,8 @@ body {
 		text-align: center;
 		font-family: fantasy; 
 		font-weight:bold; 
-		font-size: 2em; 
+		font-size: 7em;
+		margin: auto;
 		color: #c3fd3b;
 		width: 90%;
 		height: 80%t;
@@ -132,6 +133,7 @@ body {
 .section1{
 	display:inline-flexbox;
 	position: relative;
+	text-align: center; 
 	width: device-width;
 	height: device-height;
 	font-display: center; 
@@ -142,7 +144,7 @@ body {
 	text-align: center; 
 	font-family: fantasy;
 	font-weight:bold; 
-	font-size: 1em; 
+	font-size: 3em; 
 	color: #c3fd3b; 
 	text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68, 6px 6px #414D68, 7px 7px #414D68, 8px 8px #414D68, 9px 9px #414D68;
 }
@@ -166,6 +168,7 @@ body {
 	border-top-left-radius: 3em;
 	min-width: 90%;
 	min-height: 80%;
+	text-align: center; 
 	font-display: center;
 	scrollbar-darkshadow-color: #000000; 
 }
@@ -176,6 +179,7 @@ body {
 	padding: 3em;
 	border-radius: 3em;
 	min-width: 90%;
+	text-align: center; 
 	min-height: 80%;
 	font-display: center; 
 }
@@ -188,6 +192,7 @@ body {
 	border-top-left-radius: 3em;
 	min-width: 90%;
 	min-height: 80%;
+	text-align: center; 
 	font-display: center; 
 
 }
@@ -200,19 +205,21 @@ body {
 	border-bottom-left-radius: 3em;
 	min-width: 90%;
 	min-height: 80%;
+	text-align: center; 
 	font-display: center; 
 }
 .containerMint{
-	position: relative;
+	position: static;
 	display: inline-block;
 	background-color: #6689ff;
 	padding: 3em;
 	margin-left: 5em;
 	margin-right: 5em;
+	text-align: center; 
 	border-bottom-right-radius: 3em;
 	border-bottom-left-radius: 3em;
-	min-width: 90%;
-	min-height: 80%;
+	min-width: 76%;
+	min-height: 10%;
 	font-display: center; 
 }
 .container3 {
@@ -223,6 +230,7 @@ body {
 	border-radius: 3em;
 	font-display: center;
 	min-width: 90%;
+	text-align: center; 
 	min-height: 80%;
 	font-display: center; 
 }
@@ -236,6 +244,7 @@ body {
 	margin-bottom: 5em;
 	min-width: 90%;
 	min-height: 80%;
+	text-align: center; 
 	font-display: center; 
   }
 @media screen and (max-width: 480px){
