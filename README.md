@@ -1,2 +1,0 @@
-# fancydeath.com
-website
