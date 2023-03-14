@@ -70,7 +70,7 @@
 		  // Enable incremental authorization. Recommended as a best practice.
 		  include_granted_scopes: true
 		});
-
+		res.writeHead(301, { "Location": authorizationUrl });
 
 	/**
 	 * @desc Check the element was been scrolled into the view
