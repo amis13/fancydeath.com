@@ -219,7 +219,7 @@ body {
 	border-bottom-right-radius: 3em;
 	border-bottom-left-radius: 3em;
 	min-width: 76%;
-	min-height: 10%;
+	max-height: 1%;
 	font-display: center; 
 }
 .container3 {
