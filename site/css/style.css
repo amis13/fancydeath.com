@@ -14729,7 +14729,7 @@ html.rd-navbar-fixed-linked .page-header {
 @media (min-width: 1400px) {
 	.rd-navbar-classic.rd-navbar-static .rd-navbar-brand img {
 		max-width: 230px;
-		max-height: 230px;
+		max-height: 110px;
 	}
 }
 
@@ -14943,7 +14943,7 @@ html.rd-navbar-fixed-linked .page-header {
 
 .rd-navbar-classic-project {
 	padding: 75px 15px 15px;
-	width: 270px;
+	width: 250px;
 }
 
 .rd-navbar-classic-project-content {
